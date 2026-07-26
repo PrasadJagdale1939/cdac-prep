@@ -1,1 +1,2 @@
-# CDAC Pre-Program Preparation ### Prasad Jagdale | PGCP-BDA/AI | CDAC Mumbai Kharghar | August 2026 ## What this repo contains - Python practice (Week 1) - SQL queries (Week 2) - Pandas + NumPy exercises (Week 2) - Data Analysis projects ## Goal 30 days of consistent preparation before the CDAC batch starts. 
+# CDAC Pre-Program Preparation 
+ PGCP-BDA/AI | CDAC Mumbai Kharghar | August 2026 ## What this repo contains - Python practice (Week 1) - SQL queries (Week 2) - Pandas + NumPy exercises (Week 2) - Data Analysis projects ## Goal 30 days of consistent preparation before the CDAC batch starts. 
