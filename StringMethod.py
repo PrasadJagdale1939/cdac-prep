@@ -57,3 +57,18 @@ print(str1.isalpha()) #True
 print(str2.isalpha()) #False
 
 
+#islower()
+str1 ="welcome" 
+str2 ="WELCOME"
+
+print(str1.islower()) #true
+print(str2.islower()) #false
+
+
+#isprintable()
+str1 = "WelcometomyV\nlog0"
+str2 = "WelcometomyVlog0"
+print(str1)
+
+print(str1.isprintable()) #false
+print(str2.isprintable()) #true
