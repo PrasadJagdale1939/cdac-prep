@@ -72,3 +72,17 @@ print(str1)
 
 print(str1.isprintable()) #false
 print(str2.isprintable()) #true
+
+
+#isspace()
+
+str1 = "Welcome to my Vlog"
+print(str1.isspace())   #false
+str2 = "Welcome to  my  Vlog"
+print(str2.isspace())    #false
+
+
+str1 = "           "
+print(str1.isspace()) #true
+str2 = "                    "
+print(str2.isspace()) #true
