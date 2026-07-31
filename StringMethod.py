@@ -64,6 +64,10 @@ str2 ="WELCOME"
 print(str1.islower()) #true
 print(str2.islower()) #false
 
+#isupper()
+print(str1.isupper()) #false
+print(str2.isupper()) #true
+
 
 #isprintable()
 str1 = "WelcometomyV\nlog0"
@@ -86,3 +90,24 @@ str1 = "           "
 print(str1.isspace()) #true
 str2 = "                    "
 print(str2.isspace()) #true
+
+#istitle()
+str1 = "Prasad Dattatray Jagdale"
+str2 = "Prasad dattatray jagdale"
+
+print(str1.istitle()) #true
+print(str2.istitle()) #false
+
+
+#startswith()
+str1="Hey, I Am New Here !"
+print(str1.startswith("python")) #false
+print(str1.startswith("Hey, I")) #true
+
+
+#swapcase1()
+print(str1.swapcase())  #hEY, i aM nEW hERE !  ## its just swap the cases
+
+#title()
+str1= "his name is prasad. prasad is an honest man"
+print(str1.title())  #His Name Is Prasad. Prasad Is An Honest Man
