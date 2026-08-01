@@ -58,7 +58,7 @@
 #     print(num+1)    # 1 2 3 4 5 
 
 
-# for num in range(1, 20 , 2):
+# for num in range(1, 20 , 2):   #It starts at 1, increments by a step of 2 each time, and stops right before 20.
 #     print(num+1)    #2
 #                     #4
 #                     #6
