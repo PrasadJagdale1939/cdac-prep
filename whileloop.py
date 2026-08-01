@@ -13,7 +13,9 @@
 # else:
 #     print("i am inside the else statement")
 
+
 ##do-while loop is not in python
+#Python does not have a built-in do while loop like other programming languages.
 # do{
-#     loop body         ##it will execute at leasr one time
+#     loop body         ##it will execute at least one time
 # }while(condition);  
