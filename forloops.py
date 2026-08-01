@@ -51,13 +51,22 @@
 # for num in range(1,5):
 #     print(num)      # 1 2 3 4
     
-# for num in range(5):
+# for num in range(5):   #it default start with 0
 #     print(num)      # 0 1 2 3 4
 
 # for num in range(5):
 #     print(num+1)    # 1 2 3 4 5 
 
 
-for num in range(5):
-    print(num)    # 1 2 3 4 5 
+# for num in range(1, 20 , 2):
+#     print(num+1)    #2
+#                     #4
+#                     #6
+#                     #8
+#                     #10
+#                     #12
+#                     #14
+#                     #16
+#                     #18
+#                     #20
 
