@@ -13,3 +13,7 @@
 # else:
 #     print("i am inside the else statement")
 
+##do-while loop is not in python
+# do{
+#     loop body         ##it will execute at leasr one time
+# }while(condition);  
