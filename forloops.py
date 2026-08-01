@@ -1,3 +1,5 @@
+#string
+
 # name = "Prasad"
 # for i in name:
 #     print(i)  #P r a s a d
@@ -10,14 +12,18 @@
 #                                             # a
 #                                             # d
 
-colours = ["Red","White","Black","Green"]
-for colour in colours:
-    print(colour)     #Red
-                      #White
-                      #Black
-                      #Green
-    for i in colour:
-        print(i)    #Red
+
+
+#List 
+
+# colours = ["Red","White","Black","Green"]
+# for colour in colours:
+#     print(colour)     #Red
+#                       #White
+#                       #Black
+#                       #Green
+#     for i in colour:
+#         print(i)    #Red
                     #R
                     #e
                     #d
@@ -40,3 +46,18 @@ for colour in colours:
                     #e
                     #n
                     
+
+
+# for num in range(1,5):
+#     print(num)      # 1 2 3 4
+    
+# for num in range(5):
+#     print(num)      # 0 1 2 3 4
+
+# for num in range(5):
+#     print(num+1)    # 1 2 3 4 5 
+
+
+for num in range(5):
+    print(num)    # 1 2 3 4 5 
+
