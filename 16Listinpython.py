@@ -104,3 +104,13 @@ marks = [3, 5, 6, "Harry", True, 6, 7 , 2, 32, 345, 23]
 
 
 
+# names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
+# namesWith_O = [item for item in names if "o" in item]
+# print(namesWith_O)    #['Milo', 'Bruno', 'Rosa']
+
+
+
+
+names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
+namesWith_O = [item for item in names if (len(item) > 4)]
+print(namesWith_O)
