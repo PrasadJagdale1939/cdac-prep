@@ -87,6 +87,20 @@ marks = [3, 5, 6, "Harry", True, 6, 7 , 2, 32, 345, 23]
 
 
 
-animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
-print(animals[:6])	#using positive indexes  #
-print(animals[:-3])	#using negative indexes
+# animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
+# print(animals[:6])	#using positive indexes  #['cat', 'dog', 'bat', 'mouse', 'pig', 'horse']
+# print(animals[:-3])	#using negative indexes  #['cat', 'dog', 'bat', 'mouse', 'pig', 'horse']
+
+
+
+# animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
+# print(animals[::2])		#using positive indexes   #['cat', 'bat', 'pig', 'donkey', 'cow']
+# print(animals[-8:-1:2])	#using negative indexes   #['dog', 'mouse', 'horse', 'goat']
+
+
+
+# animals = ["cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow"]
+# print(animals[1:8:3])   #['dog', 'pig', 'goat']   #listName[start : end : jumpIndex]
+
+
+
