@@ -29,11 +29,11 @@ tup2 = (1,3,4,6)  #tuple
 # print(tup2[-1]) #6
 
 
-if 6 in tup2:
-    print("Yes, 6 is present in this tuple")
+# if 6 in tup2:
+#     print("Yes, 6 is present in this tuple")
 
 
 
-tup5 =tup2[1:3]
-print(tup5)   #(3, 4)
-print(tup2)   #(1, 3, 4, 6)
+# tup5 =tup2[1:3]
+# print(tup5)   #(3, 4)
+# print(tup2)   #(1, 3, 4, 6)
