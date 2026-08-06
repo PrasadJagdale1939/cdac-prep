@@ -37,3 +37,7 @@ tup2 = (1,3,4,6)  #tuple
 # tup5 =tup2[1:3]
 # print(tup5)   #(3, 4)
 # print(tup2)   #(1, 3, 4, 6)
+
+
+
+
