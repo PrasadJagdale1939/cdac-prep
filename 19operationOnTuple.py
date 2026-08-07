@@ -18,18 +18,21 @@
 
 
 
-tuple =(1,2,3,5,3,6,5,3,4,3,3,3,3,3,3,5,2,23,4,3,5)
-# res = tuple.count(3)
+# tuple =(1,2,3,5,3,6,5,3,4,3,3,3,3,3,3,5,2,23,4,3,5)
+# # res = tuple.count(3)
 
-# print(res)   #recuursion of that number 3 -> 10
+# # print(res)   #recuursion of that number 3 -> 10
 
-# res2= tuple.index(3)
-# print(res2) # it will give first occurance of 3 is -> on postion 2
+# # res2= tuple.index(3)
+# # print(res2) # it will give first occurance of 3 is -> on postion 2
 
-# res3 = tuple.index(3,3,9)   #(element,start,end)
-# print(res3)    #it will give first occurance of 3 in the sliced tuple from 3 to 9 is -> on postion 4
+# # res3 = tuple.index(3,3,9)   #(element,start,end)
+# # print(res3)    #it will give first occurance of 3 in the sliced tuple from 3 to 9 is -> on postion 4
 
 
 
-res4 =len(tuple)
-print(res4)   #21
+# res4 =len(tuple)
+# print(res4)   #21
+
+
+
