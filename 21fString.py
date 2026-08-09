@@ -50,8 +50,8 @@
 
 ##-> Padding and Alignment
 
-text = "test"
-print(f"{text:>10}")   # Right-align (width 10): '      test'
-print(f"{text:<10}")   # Left-align (width 10):  'test      '
-print(f"{text:^10}")   # Center-align (width 10): '   test   '
+# text = "test"
+# print(f"{text:>10}")   # Right-align (width 10): '      test'
+# print(f"{text:<10}")   # Left-align (width 10):  'test      '
+# print(f"{text:^10}")   # Center-align (width 10): '   test   '
 
