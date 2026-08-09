@@ -45,27 +45,27 @@
 
 
 
-# Good practice: clearly shows the index isn't used
-for i in range(3):
-    print("Hello")
+# # Good practice: clearly shows the index isn't used
+# for i in range(3):
+#     print("Hello")
 
-for _ in range(3):
-    print("Hello")
-
-
-for i in range(3):
-    print(f"This is loop number {i}")
-
-#If you use i, Python creates a variable that holds the numbers 0, 1, and 2 on each turn of the loop.
-# This is loop number 0
-# This is loop number 1
-# This is loop number 2
+# for _ in range(3):
+#     print("Hello")
 
 
+# for i in range(3):
+#     print(f"This is loop number {i}")
 
-for _ in range(3):
-    print("Hello")# 'i' is gone, we don't care about the 0, 1, or 2 
+# #If you use i, Python creates a variable that holds the numbers 0, 1, and 2 on each turn of the loop.
+# # This is loop number 0
+# # This is loop number 1
+# # This is loop number 2
 
-# Hello
-# Hello
-# Hello
+
+
+# for _ in range(3):
+#     print("Hello")# 'i' is gone, we don't care about the 0, 1, or 2 
+
+# # Hello
+# # Hello
+# # Hello
