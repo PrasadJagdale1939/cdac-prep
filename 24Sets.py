@@ -4,15 +4,15 @@
 # print(s)   #{2, 4, 6}
 
 
-info ={ "Prasad",19,False, 5.9,19}
-print(info)   #{'Prasad', False, 19, 5.9} 
+# info ={ "Prasad",19,False, 5.9,19}
+# print(info)   #{'Prasad', False, 19, 5.9} 
 
 
-for value in info:
-    print(value)    #False
-                    #19
-                    #5.9
-                    #Prasad
+# for value in info:
+#     print(value)    #False
+#                     #19
+#                     #5.9
+#                     #Prasad
 
 
 
