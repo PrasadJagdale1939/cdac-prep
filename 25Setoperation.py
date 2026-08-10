@@ -58,8 +58,48 @@ s4=set()
 
 ####################################################################
 
+# print(s2)   #{3, 4, 5, 6, 7}
+
+# s2.remove(3)  # remove will raise the error if element not found
+
+# print(s2)   #{4, 5, 6, 7}
+
+#################################################################
+
+
+# print(s2)   #{3, 4, 5, 6, 7}
+
+# s2.discard(3)  #it will work as same as remove but discard will not raise the error if element not found 
+
+# print(s2)   #{4, 5, 6, 7}
+
+##################################################################
+
+
+# random = s1.pop()   # it will pop the last item from the set , as set are unordered so we dont know what will pop 
+
+# print(random)    
+
+####################################################################
+
+
+# del s1  #for deleting the entire set
+
+# print(s1)  #it will give us error that s1 is not defined because we delete it by del s1
+
+
+#######################################################################
+
+# s1.clear()   #it will clear the items from set instead of entire set
+# print(s1)   #it will give empty set () or set()
+
+
+########################################################################
 
 
 
-
+if 7 in s2:
+    print("Yes it is present")   #Yes it is present
+else:
+    print("No it is not present")
 
