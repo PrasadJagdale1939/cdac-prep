@@ -96,10 +96,10 @@ s4=set()
 
 ########################################################################
 
+# if 7 in s2:
+#     print("Yes it is present")   #Yes it is present
+# else:
+#     print("No it is not present")
 
-
-if 7 in s2:
-    print("Yes it is present")   #Yes it is present
-else:
-    print("No it is not present")
+########################################################################
 
