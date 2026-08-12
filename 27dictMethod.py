@@ -31,6 +31,21 @@ ep2={653:44,564:78}
 # del ep1  #it will delete the whole dictionary
 # print(ep1) # it will throw an error
 
-del ep1[122]  #it will delete only 122 key with pair
-print(ep1) # {52: 34, 367: 70}
+# del ep1[122]  #it will delete only 122 key with pair
+# print(ep1) # {52: 34, 367: 70}
+
+##############################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
 
