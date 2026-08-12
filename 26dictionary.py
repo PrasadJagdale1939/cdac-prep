@@ -23,6 +23,8 @@ info ={"name":"Prasad", "age":22,"eligible":True}
 
 # print(info.values())    #dict_values(['Prasad', 22, True])
 
+# print(info.items())   #dict_items([('name', 'Prasad'), ('age', 22), ('eligible', True)])
+
 ##################################################################
 
 # print(info["name"])    #Prasad
@@ -41,14 +43,19 @@ info ={"name":"Prasad", "age":22,"eligible":True}
 #     print(info[key])   #Prasad 22 True
     
 
-for key in info.keys():
-    print(f"The Value Corresponding to the key {key} is {info[key]}")
+# for key in info.keys():
+#     print(f"The Value Corresponding to the key {key} is {info[key]}")
 
+# The Value Corresponding to the key name is Prasad
+# The Value Corresponding to the key age is 22
+# The Value Corresponding to the key eligible is True
 
+########################################################################
 
-
-
-
+for key, value in info.items():
+    print(f"The Value Corresponding to the {key} is {value}")   #The Value Corresponding to the name is Prasad
+                                                                #The Value Corresponding to the age is 22
+                                                                #The Value Corresponding to the eligible is True
 
 
 
