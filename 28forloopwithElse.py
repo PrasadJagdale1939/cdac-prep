@@ -49,4 +49,23 @@
 # else:
 #     print("sorry no i found")
 
+################################################
+
+
+# for x in range(5):
+#     print("iteration on {} in for loop".format(x+1))
+
+# else:
+#     print("else block in loop")
+
+# print("Out of loop")
+
+##### iteration on 2 in for loop
+##### iteration on 1 in for loop
+##### iteration on 3 in for loop
+##### iteration on 4 in for loop
+##### iteration on 5 in for loop
+##### else block in loop
+##### Out of loop
+
 
