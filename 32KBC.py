@@ -21,13 +21,16 @@ money = 0
 
 for i in range(0, len(questions)):
     question = questions[i]
+    print("\n#################################################################################")
     print(f"\nQuestion for Rs.{levels[i]}")
     print(f"\n{question[0]}")
     print(f"\na. {question[1]}                              b.{question[2]}")
     print(f"\nc. {question[3]}                              d.{question[4]}")
     
-    reply = int(input("\nEnter your answer (1 - 4)"))
-    
+    reply = int(input("\nEnter your answer (1 - 4) or 0 to quit  "))
+    if(reply == 0):
+        money = levels[i-1]
+        break
     if (reply == question[5]):
         print(f"\nCorrect answer , you have won Rs. {levels[i]}")
         
